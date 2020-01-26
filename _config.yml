@@ -8,7 +8,7 @@ title:               Jooho Jeong
 #tagline:             Programmer
 description:         'I am a programmer, currently in second year of DigiPen Insitute of Technology.'
 url:                 http://jooho556.github.io
-baseurl:             ''
+baseurl:             http://jooho556.github.io
 paginate:            5
 
 # About/contact
