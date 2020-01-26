@@ -8,6 +8,11 @@
     <p>{{ site.description }}</p>
   </div>
 
+  <head>
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/de7d103504.js" crossorigin="anonymous"></script>
+  </head>
+  
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
 
@@ -26,7 +31,7 @@
     {% endfor %}
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ https://github.com/jooho556 }}">&copy; GitHub</a>
+    <a class="sidebar-nav-item" href="{{ https://github.com/jooho556 }}"><i class="fab fa-github"></i> GitHub</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
   
