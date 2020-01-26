@@ -26,5 +26,5 @@ I am in currently second year of Digipen Institute of Technology.
 ## Resume
 You can get the PDF [here](/assets/Resume.pdf).
 
- <i class="fa fa-camera-retro fa-lg"></i>
+<i class="fab fa-github"></i>
  &copy;
