@@ -4,6 +4,7 @@ title: About
 ---
 
 ![About](/assets/About.png)
+
 I am in currently second year of Digipen Institute of Technology.
 
 ## Experience
