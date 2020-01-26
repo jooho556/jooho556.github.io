@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-![About](/assets/screenshot.jpg)
+![About](/assets/About.png)
 I am in currently second year of Digipen Institute of Technology.
 
 ## Experience
