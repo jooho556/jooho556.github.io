@@ -9,6 +9,7 @@ title: Virtual Space
 </head>
 
 ![Galaxy](/assets/Galaxy.gif){: .align-center}
+<!--break-->
 -----
 
 Side project for rendering space scene mainly focused on galaxy and nebulae<br/>
