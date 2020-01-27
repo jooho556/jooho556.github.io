@@ -43,8 +43,8 @@ y(t) = b * sin(t)
 //where a is major axis, b is minor axis
 {% endhighlight %}
 
-If t is 0, point goes to right side of the ellipse\
-If t is π/2, point goes to left side of the ellipse\
+If t is 0, point goes to right side of the ellipse<br/>
+If t is π/2, point goes to left side of the ellipse<br/>
 ...
 
 We can random values of t ranging from 0 to 2π if value a and b is given.
