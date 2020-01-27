@@ -49,6 +49,34 @@ If t is π/2, point goes to left side of the ellipse<br/>
 
 We can random values of t ranging from 0 to 2π if value a and b is given.
 
+So this is the outline:
+{% highlight js %}
+vector<Point> pos;
+vector<Info> info;
+Ellipse ellipse;
+for(Until loop counter reaches to certain radian)
+{
+  for(Until loop counter reaches to the number of particle of current orbit(ellipse))
+  {
+    float t = GetRandomValue(0, 2π);
+    Point p = ellipse.GetPoint(t);
+    pos.push_back(p);
+    info.push_back(Info(t, ellipse.getA(), ellipse.getB(), ellipse.getRotation()));
+  }
+  ellipse.AddRadius(some_value);
+  ellipse.Rotate();
+}
+{% endhighlight %}
+
+After binding 'pos' and 'info' to vertex buffer object correctly, use glDrawArrays with GL_POINTS as primitive. Find any particle texture you want and use GL_POINT_SPRITE as well. There should be visual enhancement. Then your output should be like:
+
+![Nebula](/assets/Galaxy_unfinished.png)
+
+Beautiful, but it is not moving. Every particle must update their position, and that is where compute shader comes in. Vertex buffers have t values and informations for ellipse. You have to have compute shader update the t value (by increasing small amount of offset, like 0.0001f) and build the equation of ellipse and re-calculate x and y position using updated t and equation of ellipse.
+
+If you are unfamiliar with compute shader, check this out: [OpenGL 4 Shading Language Cookbook - Third Edition](https://www.oreilly.com/library/view/opengl-4-shading/9781789342253/)
+
+
 ## Rendering a nebula (Still in progress)
 
 ![Nebula](/assets/Nebula.jpg)
@@ -57,6 +85,8 @@ We can random values of t ranging from 0 to 2π if value a and b is given.
   Perlin Noise + ??? = Nebula!
 </div>
 
+We need a random noise, but looked more natural. Perlin noise is perfect for rendering cloudy objects like nebula. What I am doing here is just blending the image of nightsky with the image of perlin noise and that's it! However, that means I just used the raw noise data. We can do more than this. What I am thinking is using volume rendering...
+
 ## Reference
-https://beltoforion.de/article.php?a=spiral_galaxy_renderer
-https://www.scratchapixel.com/lessons/procedural-generation-virtual-worlds/perlin-noise-part-2
+[https://beltoforion.de/article.php?a=spiral_galaxy_renderer](https://beltoforion.de/article.php?a=spiral_galaxy_renderer)
+[https://www.scratchapixel.com/lessons/procedural-generation-virtual-worlds/perlin-noise-part-2](https://www.scratchapixel.com/lessons/procedural-generation-virtual-worlds/perlin-noise-part-2)
