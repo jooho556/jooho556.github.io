@@ -12,12 +12,11 @@ title: Virtual Space
 -----
 
 Side project for rendering space scene mainly focused on galaxy and nebulae<br/>
+<!--more-->
 You can check my repository here: <i class="fab fa-github"></i>[GitHub](https://github.com/jooho556/Virtual-Space)
 
 <em>C++, OpenGL, SDL<br/>
 October 2019 ~ </em>
-
-<!--more-->
 
 ## Rendering a galaxy
 
