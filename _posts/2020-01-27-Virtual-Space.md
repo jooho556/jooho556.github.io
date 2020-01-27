@@ -22,7 +22,7 @@ October 2019 ~ </em>
 <div class="message">
   Particle + Point Sprite + Compute Shader = Galaxy!
 </div>
-
+https://github.com/jooho556/jooho556.github.io
 One of the major building blocks for rendering a galaxy is particle. Every particle has its position and informations about its orbit, which is an ellipse. Let's start with the orbits.
 
 1. Draw an ellipse (Center of galaxy)
