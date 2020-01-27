@@ -9,7 +9,6 @@ title: Virtual Space
 </head>
 
 ![Galaxy](/assets/Galaxy.gif){: .align-center}
-<!--break-->
 -----
 
 Side project for rendering space scene mainly focused on galaxy and nebulae<br/>
@@ -17,6 +16,8 @@ You can check my repository here: <i class="fab fa-github"></i>[GitHub](https://
 
 <em>C++, OpenGL, SDL<br/>
 October 2019 ~ </em>
+
+<!--break-->
 
 ## Rendering a galaxy
 
