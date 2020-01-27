@@ -11,6 +11,10 @@ title: Virtual Space
 ![Galaxy](/assets/Galaxy.gif)
 -----
 
+## Language
+* C++
+* OpenGL
+
 Side project for rendering space scene mainly focused on galaxy and nebulae
 You can check my repository here: <i class="fab fa-github"></i>[GitHub](https://github.com/jooho556/Virtual-Space)
 
