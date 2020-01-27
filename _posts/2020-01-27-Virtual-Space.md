@@ -77,7 +77,7 @@ Beautiful, but it is not moving. Every particle must update their position, and 
 
 If you are unfamiliar with compute shader, check this out: [OpenGL 4 Shading Language Cookbook - Third Edition](https://www.oreilly.com/library/view/opengl-4-shading/9781789342253/)
 
-
+-----
 ## Rendering a nebula (Still in progress)
 
 ![Nebula](/assets/Nebula.jpg)
