@@ -9,6 +9,8 @@ title: Drop the Drops
 
 >Drop the Drops is 2D puzzle game. Player will lose mistures everytime you move, so you have to collect waterdrops before you get evaporated. Beware of the bugs and sunlight!
 
+<!--break-->
+
 <em>
 2D Custom Engine<br/>
 March 2016 ~ June 2016
