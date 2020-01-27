@@ -14,7 +14,7 @@ title: Virtual Space
 Side project for rendering space scene mainly focused on galaxy and nebulae
 You can check my repository here: <i class="fab fa-github"></i>[GitHub](https://github.com/jooho556/Virtual-Space)
 
-<em>C++, OpenGL, SDL
+<em>C++, OpenGL, SDL\
 October 2019 ~ </em>
 
 ## Rendering a galaxy
@@ -43,8 +43,8 @@ y(t) = b * sin(t)
 //where a is major axis, b is minor axis
 {% endhighlight %}
 
-If t is 0, point goes to right side of the ellipse.
-If t is π/2, point goes to left side of the ellipse.
+If t is 0, point goes to right side of the ellipse\
+If t is π/2, point goes to left side of the ellipse\
 ...
 
 We can random values of t ranging from 0 to 2π if value a and b is given.
