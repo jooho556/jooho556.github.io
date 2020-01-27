@@ -8,7 +8,7 @@ title: Virtual Space
   <script src="https://kit.fontawesome.com/de7d103504.js" crossorigin="anonymous"></script>
 </head>
 
-![Galaxy](/assets/Galaxy.gif)
+![Galaxy](/assets/Galaxy.gif){: .align-center}
 -----
 
 Side project for rendering space scene mainly focused on galaxy and nebulae<br/>
