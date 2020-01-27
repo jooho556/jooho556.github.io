@@ -36,10 +36,12 @@ and you get this:
 
 Next step is put some particles to these otbits, but how? Maybe we could get x and y coordinate from equation of ellipse, but that is cumbersome process. We should use parametric equation of ellipse.
 
->F(t) = (x(t), y(t))
+{% highlight js %}
+F(t) = (x(t), y(t))
 x(t) = a * cos(t)
 y(t) = b * sin(t)
-(where a is major axis, b is minor axis)
+//where a is major axis, b is minor axis
+{% endhighlight %}
 
 If t is 0, point goes to right side of the ellipse
 If t is π/2, point goes to left side of the ellipse
