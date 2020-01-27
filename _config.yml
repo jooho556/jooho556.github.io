@@ -10,7 +10,7 @@ description:         'I am a programmer, currently in second year of DigiPen Ins
 url:                 'http://jooho556.github.io'
 baseurl:             ''
 paginate:            5
-excerpt_seperator: <!--break-->
+excerpt_separator: <!--more-->
 
 # About/contact
 author:
