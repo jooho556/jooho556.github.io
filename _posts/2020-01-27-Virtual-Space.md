@@ -11,7 +11,7 @@ title: Virtual Space
 ![Galaxy](/assets/Galaxy.gif)
 -----
 
-Side project for rendering space scene mainly focused on galaxy and nebulae
+Side project for rendering space scene mainly focused on galaxy and nebulae<br/>
 You can check my repository here: <i class="fab fa-github"></i>[GitHub](https://github.com/jooho556/Virtual-Space)
 
 <em>C++, OpenGL, SDL<br/>
@@ -56,12 +56,13 @@ vector<Info> info;
 Ellipse ellipse;
 for(Until loop counter reaches to certain radian)
 {
-  for(Until loop counter reaches to the number of particle of current orbit(ellipse))
+  for(The number of particle of current orbit(ellipse))
   {
     float t = GetRandomValue(0, 2π);
     Point p = ellipse.GetPoint(t);
     pos.push_back(p);
-    info.push_back(Info(t, ellipse.getA(), ellipse.getB(), ellipse.getRotation()));
+    info.push_back(Info(t, ellipse.getA(), 
+      ellipse.getB(), ellipse.getRotation()));
   }
   ellipse.AddRadius(some_value);
   ellipse.Rotate();
