@@ -8,8 +8,7 @@ title: Virtual Space
   <script src="https://kit.fontawesome.com/de7d103504.js" crossorigin="anonymous"></script>
 </head>
 
-![Galaxy](/assets/Galaxy.gif){: .align-center}
-<br/>
+![Galaxy](/assets/Galaxy.gif)
 <em>C++, OpenGL, SDL<br/>
 October 2019 ~ </em>
 <!--more-->
