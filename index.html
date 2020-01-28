@@ -3,15 +3,11 @@ layout: default
 title: Projects
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="/about">
-        {{ post.title }}
-      </a>
-    </h1>
-    {{  post.excerpt }}
-  </div>
+<ul>
+  {% for projects in site.projects %}
+    <li>
+      <a href="{{ projects.url }}">{{ projects.title }}</a>
+      - {{ projects.headline }}
+    </li>
   {% endfor %}
-</div>
+</ul>
