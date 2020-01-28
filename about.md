@@ -26,4 +26,4 @@ I am in currently second year of Digipen Institute of Technology.
 ## Resume
 You can get the PDF [here](/assets/Resume.pdf).
 
-<iframe src="https://drive.google.com/file/d/1kQ-Sm3Rj9DkaGj5flxmrr2QVy81496S4/preview" width="820" height="1050"></iframe>
+<iframe src="https://drive.google.com/file/d/1kQ-Sm3Rj9DkaGj5flxmrr2QVy81496S4/preview" width="100%" height="100%"></iframe>
