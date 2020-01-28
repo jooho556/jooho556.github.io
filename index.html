@@ -3,11 +3,15 @@ layout: default
 title: Projects
 ---
 
-<ul>
+<div class="projects">
   {% for projects in site.projects %}
-    <li>
-      <a href="{{ projects.url }}">{{ projects.title }}</a>
-        {{ projects.excerpt }}
-    </li>
+  <div class="projects">
+    <h1 class="projects-title">
+      <a href="{{projects.url}}">
+        {{ projects.title }}
+      </a>
+    </h1>
+    {{  projects.excerpt }}
+  </div>
   {% endfor %}
-</ul>
+</div>
