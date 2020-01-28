@@ -18,5 +18,8 @@ author:
   url:               https://jooho556.github.io
   email:             jooho556@gmail.com
 
-# Custom vars
-version:             1.0.0
+# Collection
+collections:
+  projects:
+    output: true
+    
