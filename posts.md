@@ -11,7 +11,7 @@ title: Posts
         {{ post.title }}
       </a>
     </h1>
-    {{  post.excerpt }}
+    {{  post.content }}
   </div>
   {% endfor %}
 </div>
