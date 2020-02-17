@@ -3,15 +3,15 @@ layout: page
 title: Posts
 ---
 
-<div class="posts">
-  {% for projects in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{post.url}}">
-        {{ post.title }}
+<div class="projects">
+  {% for projects in site.projects %}
+  <div class="projects">
+    <h1 class="projects-title">
+      <a href="{{projects.url}}">
+        {{ projects.title }}
       </a>
     </h1>
-    {{  post.excerpt }}
+    {{  projects.excerpt }}
   </div>
   {% endfor %}
 </div>
