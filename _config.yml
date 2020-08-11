@@ -6,7 +6,9 @@ permalink:           pretty
 # Setup
 title:               Jooho Jeong
 #tagline:             Programmer
-description:         'Software engineer\n Junior year of DigiPen Insitute of Technology'
+description:         'Software engineer,
+Junior year of DigiPen Insitute of Technology'
+
 url:                 'http://jooho556.github.io'
 baseurl:             ''
 paginate:            5
