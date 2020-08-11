@@ -5,10 +5,10 @@ title: About
 
 ![About](/assets/About.png)
 
-I am in currently second year of Digipen Institute of Technology.
+I am in currently junior year of Digipen Institute of Technology.
 
 ## Experience
-* Department Assistant (August 2019 - January 2020)
+* Department Assistant (August 2019 - July 2020)
 * Auxiliary Policeman (December 2016 - September 2018)
 
 
