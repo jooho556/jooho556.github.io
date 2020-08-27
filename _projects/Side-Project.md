@@ -20,8 +20,8 @@ Side project for rendering galaxy / cloud <br/>
 <em>C++, OpenGL, SDL<br/>
 October 2019 ~ </em>
 
-Volume rendering with 3D perlin noise
-You can check these in here: https://github.com/jooho556/Renderer
+Volume rendering with 3D perlin noise<br/>
+You can check these in here: https://github.com/jooho556/Renderer<br/>
 
 ## Reference
 [https://beltoforion.de/article.php?a=spiral_galaxy_renderer](https://beltoforion.de/article.php?a=spiral_galaxy_renderer)
