@@ -14,7 +14,7 @@ October 2019 ~ </em>
 <!--more-->
 -----
 
-Side project for rendering galaxy / cloud <br/>
+Galaxy rendering with compute shader <br/>
 
 ![Cloud](/assets/cloud.png)
 <em>C++, OpenGL, SDL<br/>
