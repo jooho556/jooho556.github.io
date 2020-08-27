@@ -15,7 +15,13 @@ October 2019 ~ </em>
 -----
 
 Side project for rendering galaxy / cloud <br/>
-You can check my repository here: <i class="fab fa-github"></i>[GitHub](https://github.com/jooho556/Renderer)
+
+![Cloud](/assets/cloud.png)
+<em>C++, OpenGL, SDL<br/>
+October 2019 ~ </em>
+
+Volume rendering with 3D perlin noise
+You can check these in here: https://github.com/jooho556/Renderer
 
 ## Reference
 [https://beltoforion.de/article.php?a=spiral_galaxy_renderer](https://beltoforion.de/article.php?a=spiral_galaxy_renderer)
