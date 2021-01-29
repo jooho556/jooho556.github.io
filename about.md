@@ -26,4 +26,4 @@ I am in currently junior year of Digipen Institute of Technology.
 ## Resume
 You can get the PDF [here](/assets/Resume.pdf).
 
-<iframe src="https://drive.google.com/file/d/1gAjmth-7YVbsgvTRz0h0l4pdNUnEwqXD/preview" width="100%" height="640"></iframe>
+<iframe src="https://drive.google.com/file/d/1Yg1CmkztLF8jGf0fcxwVeE2bln0fpEbK/preview" width="100%" height="480"></iframe>
