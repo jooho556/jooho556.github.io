@@ -24,6 +24,6 @@ I am in currently junior year of Digipen Institute of Technology.
 
 
 ## Resume
-You can get the PDF [here](/assets/Resume.pdf).
+You can get the PDF [here](/assets/resume.pdf).
 
 <iframe src="https://resume.creddle.io/embed/ba7ylra0cip" width="850" height="1100" seamless></iframe>
